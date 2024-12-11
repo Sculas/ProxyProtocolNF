@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.sculas.proxyprotocolnf.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "proxyprotocolnf.refmap.json",
+  "server": [
+    "ServerConnectionListenerMixin",
+    "ConnectionAddressAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
