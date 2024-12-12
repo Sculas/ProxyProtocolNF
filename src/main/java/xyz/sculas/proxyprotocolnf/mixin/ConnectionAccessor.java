@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 import java.net.SocketAddress;
 
 @Mixin(Connection.class)
-public interface ConnectionAddressAccessor {
+public interface ConnectionAccessor {
     @Accessor
     void setAddress(SocketAddress address);
 }

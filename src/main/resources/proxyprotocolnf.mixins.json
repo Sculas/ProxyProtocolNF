@@ -6,7 +6,7 @@
   "refmap": "proxyprotocolnf.refmap.json",
   "server": [
     "ServerConnectionListenerMixin",
-    "ConnectionAddressAccessor"
+    "ConnectionAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
